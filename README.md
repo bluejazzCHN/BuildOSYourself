@@ -11,6 +11,9 @@ install and config steps that you can find from search.
 ## First Step: Build boot
 
 -- 1 write code in mbr.S
+```
+nasm mbr.S -o mbr.bin
+```
 
 -- 2 use nasm command to compile mbr.S to generate mbr.bin.
 
