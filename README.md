@@ -25,6 +25,6 @@ nasm mbr.S -o mbr.bin
 C:\msys64\usr\bin\dd if=mbr.bin of=boot.img bs=512 count=1 conv=notrunc
 ```
 - 4 use bochs to config and boot vm from boot.img
-
+* ![avatar](https://github.com/bluejazzCHN/BuildOSYourself/blob/master/bochs%20config%20.png)
 - 5 after boot, you will see "Start Boot" on VM screen.
 
